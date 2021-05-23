@@ -151,74 +151,7 @@ MainWindow::MainWindow(QWidget *parent) :
 }
 QString goals = "Goals:";
 QString passes = "/nПропуски:";
-int goals1 = 4;
-int goals2 = 2;
-int goals3 = 2;
-int goals4 = 2;
-int goals5 = 1;
-int goals6 = 3;
-int goals7 = 4;
-int goals8 = 1;
-int goals9 = 2;
-int goals10 = 1;
-int goals11 = 2;
-int goals12 = 3;
-int goals13 = 4;
-int goals14 = 5;
 
-int global_goals1 = goals1 + goals9 + goals13;
-int global_goals2 = goals2;
-int global_goals3 = goals3;
-int global_goals4 = goals4 + goals9 + goals14;
-int global_goals5 = goals5;
-int global_goals6 = goals6 + goals12;
-int global_goals7 = goals7 + goals9;
-int global_goals8 = goals8;
-
-int global_passes1 = goals2 + goals10 + goals14;
-int global_passes2 = goals1;
-int global_passes3 = goals4;
-int global_passes4 = goals3 + goals12 + goals13;
-int global_passes5 = goals6;
-int global_passes6 = goals5 + goals11;
-int global_passes7 = goals8 + goals9;
-int global_passes8 = goals7;
-
-int win1 = 2;
-int win2 = 0;
-int win3 = 0;
-int win4 = 3;
-int win5 = 0;
-int win6 = 0;
-int win7 = 1;
-int win8 = 0;
-
-int lose1 = 1;
-int lose2 = 1;
-int lose3 = 1;
-int lose4 = 0;
-int lose5 = 0;
-int lose6 = 1;
-int lose7 = 1;
-int lose8 = 1;
-
-int draw1 = 0;
-int draw2 = 0;
-int draw3 = 0;
-int draw4 = 0;
-int draw5 = 1;
-int draw6 = 1;
-int draw7 = 0;
-int draw8 = 0;
-
-int score1 = 6;
-int score2 = 1;
-int score3 = 1;
-int score4 = 9;
-int score5 = 2;
-int score6 = 2;
-int score7 = 3;
-int score8 = 0;
 
 
 void MainWindow::on_pushButton_clicked()
