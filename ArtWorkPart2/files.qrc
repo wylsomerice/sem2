@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>Files/cities.png</file>
+        <file>Files/delete.png</file>
+        <file>Files/background.png</file>
+        <file>Files/otval.png</file>
+        <file>Files/editing.png</file>
+        <file>Files/deleting.png</file>
+    </qresource>
+</RCC>

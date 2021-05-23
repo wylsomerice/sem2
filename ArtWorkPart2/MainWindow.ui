@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWindow</class>
+ <widget class="QMainWindow" name="QtWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1463</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1463</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1463</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PART II</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton
+{
+	color: rgb(190, 190, 255);
+	background-color: rgb(75, 111, 166);
+	border: 4px solid black;
+	border-radius: 10px;
+}
+
+QPushButton:hover
+{
+	color: rgb(225, 225, 225);
+	background-color: rgb(0, 160, 117);
+	border: 3px solid black;
+}
+
+QPushButton:pressed
+{
+	color: rgb(195, 195, 195);
+	background-color: rgb(0, 130, 87);
+	border: 5px solid black;
+}
+
+QTextEdit
+{
+	border: 5px solid rgb(0, 0, 0);
+	border-radius: 10px
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnCreate">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>720</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+QPushButton:hover
+{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(20, 200, 220);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+
+QPushButton:pressed
+{
+color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Create
+matrix</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAdd">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>803</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+QPushButton:hover
+{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(102, 211, 81);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+
+QPushButton:pressed
+{
+color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}</string>
+    </property>
+    <property name="text">
+     <string>
+Добавить
+узел
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDelete">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>805</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+QPushButton:hover
+{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(102, 211, 81);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+
+QPushButton:pressed
+{
+color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Удалить
+узел</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAnswer">
+    <property name="geometry">
+     <rect>
+      <x>752</x>
+      <y>810</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+QPushButton:hover
+{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(102, 211, 81);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+
+QPushButton:pressed
+{
+color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Построить 
+Маршрут</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>805</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+QPushButton:hover
+{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(102, 211, 81);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}
+
+
+QPushButton:pressed
+{
+color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0, 0);
+	border: 4px solid rgb(0, 0, 0, 0);
+	border-radius: 80px;
+}</string>
+    </property>
+    <property name="text">
+     <string>
+Изменить
+путь
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rootNode">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>740</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;начало&lt;/p&gt;&lt;p&gt; пути&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="rootText">
+    <property name="geometry">
+     <rect>
+      <x>635</x>
+      <y>845</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit
+{
+	background-color: rgb(0, 0, 0, 0);
+	border: 5px solid rgb(0, 0, 0, 0);
+	border-radius: 55px
+}
+
+QTextEdit::focus
+{
+background-color: rgb(0, 0, 0, 0);
+	border: 5px solid rgb(0, 0, 0, 0);
+	border-radius: 10px
+}</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhMultiLine</set>
+    </property>
+    <property name="placeholderText">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="lengthText">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>910</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0 , 0, 0);
+border-color: rgba(0, 0 , 0, 0);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhMultiLine</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+    <property name="placeholderText">
+     <string>Длина</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="wayText">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>810</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a_Campus</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0 , 0, 0);
+border-color: rgba(0, 0 , 0, 0);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhMultiLine</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+    <property name="placeholderText">
+     <string>построенный маршрут</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>1331</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="grid"/>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1471</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/files/Files/background.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>btnCreate</zorder>
+   <zorder>btnAdd</zorder>
+   <zorder>btnDelete</zorder>
+   <zorder>btnAnswer</zorder>
+   <zorder>btnEdit</zorder>
+   <zorder>rootNode</zorder>
+   <zorder>lengthText</zorder>
+   <zorder>wayText</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>rootText</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

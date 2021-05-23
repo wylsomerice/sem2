@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>new_icons/answer.png</file>
+        <file>new_icons/atl.png</file>
+        <file>new_icons/bar.png</file>
+        <file>new_icons/bav.png</file>
+        <file>new_icons/che.png</file>
+        <file>new_icons/field.png</file>
+        <file>new_icons/juv.png</file>
+        <file>new_icons/man.png</file>
+        <file>new_icons/rea.png</file>
+        <file>new_icons/sev.png</file>
+        <file>TZ/messi.png</file>
+        <file>TZ/pele.png</file>
+        <file>TZ/ronaldo.png</file>
+        <file>new_icons/chmp.png</file>
+        <file>new_icons/tablepsd.png</file>
+        <file>new_icons/back.png</file>
+    </qresource>
+</RCC>
