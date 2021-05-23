@@ -34,43 +34,6 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->atl, SIGNAL(clicked()),this,SLOT(gp_clicked()));
     connect(ui->man, SIGNAL(clicked()),this,SLOT(gp_clicked()));
 
-    int win1 = 0;
-    int win2 = 0;
-    int win3 = 0;
-    int win4 = 0;
-    int win5 = 0;
-    int win6 = 0;
-    int win7 = 0;
-    int win8 = 0;
-
-    int lose1 = 0;
-    int lose2 = 0;
-    int lose3 = 0;
-    int lose4 = 0;
-    int lose5 = 0;
-    int lose6 = 0;
-    int lose7 = 0;
-    int lose8 = 0;
-
-    int draw1 = 0;
-    int draw2 = 0;
-    int draw3 = 0;
-    int draw4 = 0;
-    int draw5 = 0;
-    int draw6 = 0;
-    int draw7 = 0;
-    int draw8 = 0;
-
-    int score1 = 0;
-    int score2 = 0;
-    int score3 = 0;
-    int score4 = 0;
-    int score5 = 0;
-    int score6 = 0;
-    int score7 = 0;
-    int score8 = 0;
-
-
     int goals1 = rand()% 5;
     int goals2 = rand()% 5;
     while(goals2 > goals1)
