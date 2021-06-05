@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/resource"/>
-    <qresource prefix="/resourse">
-        <file>Night city.jpg</file>
-    </qresource>
-</RCC>
